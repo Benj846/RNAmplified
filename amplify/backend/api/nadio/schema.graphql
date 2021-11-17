@@ -1,0 +1,21 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+}
+
+type Post @model {
+  id: ID!
+  title: String!
+  status: PostStatus!
+  rating: Int!
+  content: String
+}
+type Audio @model {
+  id: ID!
+  description: String
+}
+enum PostStatus {
+  DRAFT
+  PUBLISHED
+}
