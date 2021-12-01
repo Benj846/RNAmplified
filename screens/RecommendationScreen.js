@@ -7,8 +7,6 @@ export default function RecommendationScreen({ navigation }) {
   const [todos, setTodos] = useState([]);
   useEffect(async () => {
     fetchTodos();
-    // const audioData = await Storage.get("test.mp3");
-    // console.log(audioData);
   }, []);
   async function fetchTodos() {
     try {

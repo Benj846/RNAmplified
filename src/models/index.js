@@ -7,11 +7,10 @@ const PostStatus = {
   "PUBLISHED": "PUBLISHED"
 };
 
-const { Todo, Post, Audio } = initSchema(schema);
+const { Todo, Post } = initSchema(schema);
 
 export {
   Todo,
   Post,
-  Audio,
   PostStatus
 };

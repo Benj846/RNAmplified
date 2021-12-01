@@ -11,11 +11,9 @@ type Post @model {
   rating: Int!
   content: String
 }
-type Audio @model {
-  id: ID!
-  description: String
-}
+
 enum PostStatus {
   DRAFT
   PUBLISHED
 }
+ 
